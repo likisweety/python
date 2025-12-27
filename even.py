@@ -1,0 +1,11 @@
+s=[1,34,56,0,1,2,3,7]
+even=[]
+odd=[]
+for num in s:
+    if num %2==0:
+        even.append(num)
+    else:
+        odd.append(num)
+print("even",even)
+print("odd",odd)
+              
